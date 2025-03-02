@@ -1,0 +1,117 @@
+.income-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .income-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .income-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .income-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .income-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .income-card-content {
+    flex: 1;
+  }
+  
+  .income-card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  
+  .income-amount {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .income-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+  .income-date {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .income-card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .edit-icon {
+    color: #2196f3;
+  }
+  
+  .edit-icon:hover {
+    color: #1976d2;
+  }
+  
+  .delete-icon {
+    color: #f44336;
+  }
+  
+  .delete-icon:hover {
+    color: #d32f2f;
+  }
+  
+  /* Form Styles */
+  .income-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-btn,
+  .update-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #757575;
+    color: white;
+  }
+  

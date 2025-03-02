@@ -1,0 +1,76 @@
+.expense-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn, .delete-btn, .update-btn, .cancel-btn, .add-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background: #f0ad4e;
+    color: white;
+  }
+  
+  .delete-btn {
+    background: #d9534f;
+    color: white;
+  }
+  
+  .add-btn, .update-btn {
+    background: #5cb85c;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  

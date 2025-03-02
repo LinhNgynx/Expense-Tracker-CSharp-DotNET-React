@@ -1,0 +1,48 @@
+.home-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .income {
+    background: #28a745;
+    color: white;
+  }
+  
+  .expenses {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .balance {
+    background: #007bff;
+    color: white;
+  }
+  
+  .negative {
+    background: #ff5733;
+  }
+  
